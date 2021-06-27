@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="template added" />
+    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="template added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/static/assets/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/collector/static/assets/css/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/templates/collector/submission_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/collector/templates/collector/submission_form.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624812659316</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="template added">
+      <created>1624812765461</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624812765461</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
