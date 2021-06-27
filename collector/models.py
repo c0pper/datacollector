@@ -7,6 +7,7 @@ class Submission(models.Model):
     GENDER = (
         ('Pene', 'Pene'),
         ('Vagina', 'Vagina'),
+        ('Rettile', 'Rettile'),
     )
     age = models.PositiveIntegerField(default=1)
     gender = models.CharField(max_length=200, choices=GENDER)

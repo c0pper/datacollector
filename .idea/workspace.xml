@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="first" />
+    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="ahaha to text demo">
+      <change beforePath="$PROJECT_DIR$/collector/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/collector/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true">
+  <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
     </option>
@@ -73,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1623581410771</updated>
     </task>
+    <task id="LOCAL-00001" summary="ahaha to text demo">
+      <created>1624794885637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624794885637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +96,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ahaha to text demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ahaha to text demo" />
   </component>
 </project>
