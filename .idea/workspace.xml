@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="add list btn">
+    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="fix __str__">
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/css/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/fonts/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/img/portfolio/cabin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/img/portfolio/cake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/img/portfolio/circus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/img/portfolio/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/img/portfolio/safe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/img/portfolio/submarine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/js/freelancer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/templates/collector/baseold.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/collector/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/templates/collector/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/collector/templates/collector/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/templates/collector/submission_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/collector/templates/collector/submission_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/templates/collector/submission_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/collector/templates/collector/submission_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +50,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ttHLWadtpwVbPSyiASZ7SLJXUN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,13 +61,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/collector/templates/collector/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/collector/static/assets/css" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\PycharmProjects\django data collector\collector\static\assets\css" />
+      <recent name="C:\Users\simon\PycharmProjects\django data collector\collector\static\assets" />
+      <recent name="C:\Users\simon\PycharmProjects\django data collector\collector\static" />
       <recent name="C:\Users\simon\PycharmProjects\django data collector\collector\templates\collector\icons" />
       <recent name="C:\Users\simon\PycharmProjects\django data collector\collector\templates\collector" />
-      <recent name="C:\Users\simon\PycharmProjects\django data collector\collector" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624796226911</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix __str__">
+      <created>1624803744200</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624803744200</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +151,7 @@
     <MESSAGE value="ahaha to text demo" />
     <MESSAGE value="rettile aggiutnto" />
     <MESSAGE value="add list btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="add list btn" />
+    <MESSAGE value="fix __str__" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix __str__" />
   </component>
 </project>

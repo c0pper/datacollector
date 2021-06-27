@@ -2,14 +2,58 @@
 
 {% block content %}
     {% for submission in submissions %}
-        <article class="post">
-            <time class="date">
-                {{ submission.created_date }}
-            </time>
-            <p>#: {{ submission.pk|linebreaksbr }}</p>
-            <p>Età: {{ submission.age|linebreaksbr }}</p>
-            <p>Pene o vagina: {{ submission.gender|linebreaksbr }}</p>
-            <p>{{ submission.text|linebreaksbr }}</p>
-        </article>
+        <div class="container submission_item">
+            <div class="row">
+                <div class="col-2">
+                    <p>Submission date</p>
+                </div>
+                <div class="col">
+                    <p>{{ submission.created_date }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>#</p>
+                </div>
+                <div class="col">
+                    <p>{{ submission.pk|linebreaksbr }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>Età</p>
+                </div>
+                <div class="col">
+                    <p>{{ submission.age|linebreaksbr }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>Genere</p>
+                </div>
+                <div class="col">
+                    <p>{{ submission.gender|linebreaksbr }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>Testo</p>
+                </div>
+                <div class="col">
+                    <p>{{ submission.text|linebreaksbr }}</p>
+                </div>
+            </div>
+        </div>
+
+<!--        <article class="post">-->
+<!--            <time class="date">-->
+<!--                {{ submission.created_date }}-->
+<!--            </time>-->
+<!--            <p>#: {{ submission.pk|linebreaksbr }}</p>-->
+<!--            <p>Età: {{ submission.age|linebreaksbr }}</p>-->
+<!--            <p>Pene o vagina: {{ submission.gender|linebreaksbr }}</p>-->
+<!--            <p>{{ submission.text|linebreaksbr }}</p>-->
+<!--        </article>-->
     {% endfor %}
 {% endblock %}
+

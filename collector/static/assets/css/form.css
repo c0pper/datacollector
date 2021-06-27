@@ -1,0 +1,11 @@
+.container.form {
+  background-color: #2d5958;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container.form p {
+  font-size: 15px;
+  text-align: left;
+}
+
