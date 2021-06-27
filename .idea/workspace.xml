@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="rettile aggiutnto">
-      <change beforePath="$PROJECT_DIR$/collector/templates/collector/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/collector/templates/collector/base.html" afterDir="false" />
+    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="add list btn">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/collector/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +36,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/collector/templates/collector" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/collector/templates/collector/icons" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\PycharmProjects\django data collector\collector\templates\collector\icons" />
       <recent name="C:\Users\simon\PycharmProjects\django data collector\collector\templates\collector" />
       <recent name="C:\Users\simon\PycharmProjects\django data collector\collector" />
     </key>
@@ -89,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624795676985</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add list btn">
+      <created>1624796226911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624796226911</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ahaha to text demo" />
     <MESSAGE value="rettile aggiutnto" />
-    <option name="LAST_COMMIT_MESSAGE" value="rettile aggiutnto" />
+    <MESSAGE value="add list btn" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list btn" />
   </component>
 </project>

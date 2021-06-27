@@ -15,4 +15,4 @@ class Submission(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return self.pk
+        return str(self.pk)
