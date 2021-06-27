@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="sub form align ceneter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/collector/forms.py" afterDir="false" />
-    </list>
+    <list default="true" id="a1ea5f10-1087-4bd3-b0bb-382a6857590d" name="Default Changelist" comment="textarea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624820917871</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="textarea">
+      <created>1624826351950</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624826351950</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +191,7 @@
     <MESSAGE value="fix __str__" />
     <MESSAGE value="template added" />
     <MESSAGE value="sub form align ceneter" />
-    <option name="LAST_COMMIT_MESSAGE" value="sub form align ceneter" />
+    <MESSAGE value="textarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="textarea" />
   </component>
 </project>
