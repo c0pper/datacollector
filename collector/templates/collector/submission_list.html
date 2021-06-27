@@ -1,0 +1,15 @@
+{% extends 'collector/base.html' %}
+
+{% block content %}
+    {% for submission in submissions %}
+        <article class="post">
+            <time class="date">
+                {{ submission.created_date }}
+            </time>
+            <p>#: {{ submission.pk|linebreaksbr }}</p>
+            <p>Età: {{ submission.age|linebreaksbr }}</p>
+            <p>Pene o vagina: {{ submission.gender|linebreaksbr }}</p>
+            <p>{{ submission.text|linebreaksbr }}</p>
+        </article>
+    {% endfor %}
+{% endblock %}
